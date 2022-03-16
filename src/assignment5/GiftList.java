@@ -27,10 +27,6 @@ public class GiftList {
 		return false;
 	}
 	
-	public boolean isFull() {
-		return false;
-	}
-	
 	public boolean addGiftBasketToEnd(GiftBasket g) {
 			Node temp = new Node();
 			temp.setData(g);
